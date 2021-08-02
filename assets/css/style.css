@@ -1,0 +1,124 @@
+body{
+  background-color:black;
+  color:wheat;
+  font-family: 'Teko', sans-serif, Arial, Helvetica;
+  font-size: larger;
+  background-color: #000000;
+}
+body{background-color: #000000;
+  opacity: 0.8;
+  background-image:  linear-gradient(30deg, #B49A65 12%, transparent 12.5%, transparent 87%, #B49A65 87.5%, #B49A65), linear-gradient(150deg, #B49A65 12%, transparent 12.5%, transparent 87%, #B49A65 87.5%, #B49A65), linear-gradient(30deg, #B49A65 12%, transparent 12.5%, transparent 87%, #B49A65 87.5%, #B49A65), linear-gradient(150deg, #B49A65 12%, transparent 12.5%, transparent 87%, #B49A65 87.5%, #B49A65), linear-gradient(60deg, #B49A6577 25%, transparent 25.5%, transparent 75%, #B49A6577 75%, #B49A6577), linear-gradient(60deg, #B49A6577 25%, transparent 25.5%, transparent 75%, #B49A6577 75%, #B49A6577);
+  background-size: 24px 42px;
+  background-position: 0 0, 0 0, 12px 21px, 12px 21px, 0 0, 12px 21px;}
+
+  /*********************************************************/
+  /*hyperlinks colors */
+
+  a:link, a:visited{
+    color: white;
+  }
+  a:hover{
+    color:linen;
+  }
+
+  /*********************************************************/
+  /*holder id was given a black background and center all the text in holder*/
+  #holder{
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+  /*********************************************************/
+  /*flexed the primary class and centered evything in it and gave contactinfo border style  */
+  .primary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .contactinfo{
+    border: 20px white;
+    border-style: double;
+    width: 20%;
+  }
+
+/*---------------------------------------------------------*/
+/*flexing the education section*/
+  .education{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  #Kapolei{
+    border: 20px;
+    width:200px;
+    
+  }
+  #Pulaski{
+    border: 20px;
+    width: 200px
+
+  }
+  #UALR{
+    border: 20px;
+    width: 200px;
+
+  }
+
+/*---------------------------------------------------------*/
+/*flexing the employment section*/
+  .Employment{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #homedepot{
+    border: 20px;
+    width: 200px;
+  }
+  #ArPediatric{
+    border: 20px;
+    width: 200px;
+  }
+  #Itrampoline{
+    border: 20px;
+    width: 200px;
+  }
+
+  /*-------------------------------------------------------*/
+/*flexing the achieveNactives section*/
+  .achieveNactives{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+/*---------------------------------------------------------*/
+/*flexing and aligning the unorder list the skillsNrefers section*/
+  .skillsNrefers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul{
+    min-width: 696px;
+    padding-top: 20px;
+    text-align: center;
+    list-style: none;
+    list-style-position: inside;
+  }
+
+  li{
+    display: inline;
+  }
+
+  /*-------------------------------------------------------*/
+  /*aligning finally id to be positioned in the center*/
+
+  #finally{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+  }
