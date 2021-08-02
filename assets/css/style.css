@@ -49,6 +49,12 @@ body{background-color: #000000;
   }
 
 /*---------------------------------------------------------*/
+/*putting padding in on objective*/
+.objective{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/*---------------------------------------------------------*/
 /*flexing the education section*/
   .education{
     display: flex;
